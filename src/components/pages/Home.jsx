@@ -164,20 +164,19 @@ const Home = () => {
             <main>
                 <div className="vertical-menu">
                 <ul>
-          <li><NavLink className={"lik"} to={"/"}>Inicio</NavLink></li>
-          <li onClick={mostrarToastMantenimiento}>Tarifas y pagos</li>
-          {isUserLoggedIn() ? (
-            
-            <li onClick={handleLogout}>Desconectarse</li>,
-            <li onClick={anularReserva}>Anular Reserva</li>,
-            <li><NavLink className={"lik"} to={"/reports"}>Reportes</NavLink></li>
-            
-          ) : (
-            <li><NavLink to={"/login"}>Iniciar sesión</NavLink></li>
+                  <li><NavLink className={"lik"} to={"/"}>Inicio</NavLink></li>
+                  <li onClick={mostrarToastMantenimiento}>Tarifas y pagos</li>
+                  {isUserLoggedIn() ? (
+                    <>
+                      <li><NavLink onClick={handleLogout}>Desconectarse </NavLink></li>
+                      <li><NavLink className={"lik"} onClick={anularReserva}>Anular Reserva</NavLink></li>
+                      <li><NavLink className={"lik"} to={"/reports"}>Reportes</NavLink></li>
+                    </>
+                  ) : (
+                    <li><NavLink to={"/login"}>Iniciar sesión</NavLink></li>
+                  )}
+                </ul>
 
-            
-          )}
-        </ul>
                 </div>
                 <div className="main-content">
                     <h1>Espacios Generales</h1>
