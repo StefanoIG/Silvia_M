@@ -1,0 +1,19 @@
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.form-container {
+  width: 400px;
+  text-align: center;
+}
+form {
+  width: 100%;
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+}

@@ -1,0 +1,114 @@
+li {
+  cursor: pointer;
+  padding: 20px 40px;
+  width: 200px;
+}
+li:hover {
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical-menu {
+  height: 90vh;
+  width: 300px;
+  border-right: 1px solid black;
+}
+.vertical-menu > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.main-content {
+  width: 800px;
+  height: 90vh;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.main-content  h1 {
+  margin: 30px 0;
+}
+.right-content {
+  width: 500px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+
+
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100px;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 90px;
+}
+.color {
+  width: 100px;
+  height: 10px;
+  background-color: rgb(131, 255, 131);
+}
+.space-container {
+  padding: 30px;
+  border-bottom: 1px solid black;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card {
+  margin: 20px;
+  padding: 10px 30px;
+  font-weight: bold;
+
+}
+.text-white {
+  color: white;
+}
+.bg-green {
+  background-color: rgb(131, 255, 131);
+}
+.bg-red {background-color: rgb(255, 93, 93);
+
+}
+
+.title-container {
+  text-align: center;
+  padding: 20px 10px;
+}
+.reserved-btn {
+  padding: 20px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.reserved-btn:hover {
+  background-color: rgb(255, 93, 93);
+  color: white;
+}
+.color.reservado {
+  background-color: #FF0000; /* Color rojo para indicar que está reservado */
+}

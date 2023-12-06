@@ -1,0 +1,21 @@
+#logo-profile {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.text-user {
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.left {
+  padding: 20px;
+  width: 1200px;
+}
+.vehicle-card {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

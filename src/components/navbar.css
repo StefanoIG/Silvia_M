@@ -1,0 +1,39 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+#profile {
+  width: 30px;
+  height: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profile-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
